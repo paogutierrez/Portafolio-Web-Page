@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bakbak+One&family=Bebas+Neue&family=Comic+Neue:wght@300&family=Fredericka+the+Great&family=Inconsolata:wght@500&family=Inter:wght@900&family=M+PLUS+1p&family=Montserrat:wght@200;300;500&family=Neonderthaw&family=Noto+Sans+Mono:wght@600;900&family=Noto+Serif:ital,wght@1,700&family=Oswald:wght@300;400&family=Permanent+Marker&family=Poiret+One&family=Poppins:wght@600&family=Press+Start+2P&family=Roboto+Mono:wght@300;500&family=Rock+3D&family=Shippori+Antique+B1&family=Smooch&family=Source+Sans+3&family=Space+Grotesk:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ #navbar{
+     padding-top:25px;
+     padding-bottom: 25px;
+     background-color: black;
+     font-style: none;
+     text-decoration: none;
+     border:purple 5px solid;
+     position: fixed;
+     top:0;
+     width: 100%;
+     z-index:1000;
+ }
+ #navbar a{
+     color:fuchsia;
+ }
+ ul li:hover{
+     background:rgb(8, 7, 7);
+     padding-top:10px;
+     padding-bottom: 10px;
+ }
+ #navbar a:hover{
+    color:yellow;
+ }
+
+ #welcome-section{  
+     height: 100vh;
+     
+ }
+ .contenedorWelcome{
+     padding-top:200px;
+     padding-bottom: 20px;
+
+ }
+ h1{
+     font-family:'Fredericka the Great', cursive;
+     text-align: center;
+     color:black;
+     font-size: 60px;
+ }
+ h3{
+    font-family:'Fredericka the Great', cursive;
+    text-align: center;
+    color:rgb(114, 12, 155);
+ }
+ h2{
+    font-family:'Fredericka the Great', cursive;
+    color:rgb(255, 255, 255);
+    padding-top:30px;
+    padding-bottom:30px;
+    text-align: center;
+  
+ }
+ #projects{
+     background-color: black;
+     border:purple 5px solid;
+    text-align: center;
+     
+ }
+ 
+.card{
+    
+    width:450px;
+    display:inline-block;
+    margin:20px;
+    border:none;
+    padding-top:20px;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    background-color: black;
+      
+}
+.card:hover{
+    background-color: rgba(93, 198, 224, 0.404);
+    border-radius: 5px;;
+   
+}
+
+.card-body{
+    background-color: black;
+}
+.card a{
+    width: 100%;
+    background:none;
+    border:none;
+    font-family: 'Fredericka the Great', cursive;
+}
+.card a:hover{
+    width: 350px;
+    background:rgba(255, 0, 255, 0.301);
+    padding-right:10px;
+    
+}
+
+.github{
+    font-family:  'Fredericka the Great', cursive;
+    text-align: center;
+    color:black;
+    font-size: 60px;
+}
+.programando{
+    font-family:  'Fredericka the Great', cursive;
+    color: black;
+    font-size: 40px;
+}
+
+#link{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.icono{
+    text-align: center;
+    
+}
+.icono i{
+    color:white;
+    background-color:rgb(114, 12, 155);
+    padding:20px;
+    border-radius:30px;
+
+   
+}
+.icono i:hover{
+    color:white;
+    background-color:rgba(255, 0, 255, 0.349);
+    padding:20px;
+    border-radius:30px;
+    
+   
+}
+.icono i a{
+    font-family:  'Fredericka the Great', cursive;
+    color:white;
+    font-size: 30px;
+    padding:15px;
+    
+}
+footer{
+    background-color:black;
+    padding-top:30px;
+    padding-bottom: 30px;
+    border:purple 2px solid;
+}
+footer p{
+    font-family:  'Fredericka the Great', cursive;  
+    color:white;
+    text-align: center;
+    
+}
+
